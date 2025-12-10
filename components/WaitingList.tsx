@@ -20,8 +20,8 @@ const WaitingList: React.FC = () => {
             >
                 Launch Web App
             </a>
-            <button className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white/10 transition-all">
-                Join iOS Waitlist
+            <button disabled aria-disabled="true" title="Coming soon" className="w-full sm:w-auto px-8 py-4 bg-transparent border-2 border-white text-white font-bold text-lg rounded-full opacity-60 cursor-not-allowed transition-all">
+              Join iOS Waitlist (Coming soon)
             </button>
         </div>
         

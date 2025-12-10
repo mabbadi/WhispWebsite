@@ -35,7 +35,7 @@ const Features: React.FC = () => {
             icon={<Ghost className="text-purple-600" size={28} />}
             color="bg-purple-100"
             title="Totally Anonymous"
-            description="Be yourself without the pressure. Choose a fun avatar and chat without revealing your identity unless you want to."
+            description="Be yourself without the pressure. Start your day with a fun avatar and chat without revealing your identity unless you want to."
           />
           <FeatureCard 
             icon={<Map className="text-whisp-dark" size={28} />}

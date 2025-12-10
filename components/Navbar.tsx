@@ -43,7 +43,16 @@ const Navbar: React.FC = () => {
         <nav className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-gray-600 hover:text-whisp-dark font-medium transition-colors">Features</a>
           <a href="#use-cases" className="text-gray-600 hover:text-whisp-dark font-medium transition-colors">Local Vibes</a>
-          <a href="#download" className="text-gray-600 hover:text-whisp-dark font-medium transition-colors">Download</a>
+          <button
+            aria-disabled="true"
+            disabled
+            title="Work in progress"
+            className="text-gray-500 cursor-not-allowed font-medium transition-colors flex items-center gap-2"
+          >
+            Download
+            <span className="inline-block text-xs bg-yellow-400 text-black px-1 rounded">WIP</span>
+            <span className="sr-only">Coming soon</span>
+          </button>
           <a 
             href="https://web.whispapp.co" 
             className="px-6 py-2.5 bg-whisp-dark hover:bg-teal-600 text-white font-semibold rounded-full transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
@@ -66,7 +75,14 @@ const Navbar: React.FC = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-xl p-6 flex flex-col gap-4 animate-fade-in-down">
           <a href="#features" className="text-lg font-medium text-gray-700" onClick={() => setMobileMenuOpen(false)}>Features</a>
           <a href="#use-cases" className="text-lg font-medium text-gray-700" onClick={() => setMobileMenuOpen(false)}>Local Vibes</a>
-          <a href="#download" className="text-lg font-medium text-gray-700" onClick={() => setMobileMenuOpen(false)}>Download</a>
+          <button
+            aria-disabled="true"
+            disabled
+            className="text-lg font-medium text-gray-500 cursor-not-allowed flex items-center gap-2"
+          >
+            Download
+            <span className="inline-block text-xs bg-yellow-400 text-black px-1 rounded">WIP</span>
+          </button>
           <a 
             href="https://web.whispapp.co" 
             className="text-center px-6 py-3 bg-whisp-dark text-white font-semibold rounded-full mt-2"

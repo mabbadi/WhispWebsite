@@ -3,8 +3,8 @@ import React from 'react';
 const Gallery: React.FC = () => {
   const images = [
     "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1471&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1621238235961-6c10977cef1f?q=80&w=1138&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1375&auto=format&fit=crop",
-    "https://images.unsplash.com/photo-1600096194519-623c2a8f89a9?q=80&w=2600&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1531123414780-f74242c2b052?q=80&w=2574&auto=format&fit=crop"
   ];
 
