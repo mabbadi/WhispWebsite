@@ -22,12 +22,19 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo Area */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
-           {/* Placeholder for Logo Image provided by user */}
-           <img src="https://i.imgur.com/8Q5kYhR.png" alt="Whisp Logo" className="h-10 w-auto" onError={(e) => {
-               // Fallback if image fails
-               (e.target as HTMLImageElement).style.display = 'none';
-           }} />
-           <span className={`text-2xl font-bold tracking-tight text-whisp-dark hidden sm:block`}>
+           <img 
+              src="/logo.png" 
+              alt="Whisp - Your Local Whisper" 
+              className="h-10 md:h-14 w-auto object-contain" 
+              onError={(e) => {
+                  // Fallback if image fails or isn't present
+                  e.currentTarget.style.display = 'none';
+                  const fallback = document.getElementById('logo-fallback');
+                  if (fallback) fallback.classList.remove('hidden');
+              }} 
+           />
+           {/* Fallback text only shown if image fails */}
+           <span id="logo-fallback" className="hidden text-2xl font-bold tracking-tight text-whisp-dark">
              Whisp
            </span>
         </div>
