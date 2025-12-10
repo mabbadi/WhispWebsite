@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
         {/* Logo Area */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
             <img
-             src="/images/whisp_logo_big.png"
+             src="/assets/whisp_logo_big.png"
              alt="Whisp - Your Local Whisper"
              className="h-12 md:h-16 w-auto object-contain"
              onError={(e) => {
