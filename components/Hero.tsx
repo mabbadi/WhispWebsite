@@ -74,17 +74,17 @@ const Hero: React.FC = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>
-
-              {/* App Screenshot Floating on top */}
+{/*}
+              {/* App Screenshot Floating on top
               <div className="absolute -bottom-10 -left-6 md:-bottom-12 md:-left-12 w-2/3 md:w-3/5 transform -rotate-3 transition-transform hover:rotate-0 duration-500 z-20">
-                  <div className="relative bg-white rounded-3xl shadow-2xl border-[6px] border-white overflow-hidden">
-                     <img 
-                        src="https://i.imgur.com/K3t5s5w.png" 
-                        alt="Whisp App Interface" 
-                        className="w-full h-auto object-cover"
-                     />
+                  <div className="relative inline-flex bg-white rounded-3xl shadow-2xl border-[6px] border-white overflow-hidden">
+                    <img
+                      src="/images/map.png"
+                      alt="Whisp App Interface"
+                      className="block w-auto max-w-full h-auto"
+                    />
                   </div>
-                   {/* Chat Bubble Widget */}
+                   {/* Chat Bubble Widget
                    <div className="absolute -top-10 -right-10 bg-white p-4 rounded-2xl rounded-bl-none shadow-xl animate-bounce-slow hidden sm:block z-30 max-w-[180px]">
                         <div className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-xl shadow-inner">🎉</div>
@@ -95,7 +95,7 @@ const Hero: React.FC = () => {
                         </div>
                    </div>
               </div>
-
+*/}
             </div>
           </div>
         </div>
