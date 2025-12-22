@@ -171,10 +171,10 @@ const Features: React.FC = () => {
 
         <div
           aria-hidden={!showMore}
-          className={`mt-12 overflow-hidden transition-all duration-500 ease-out ${
+          className={`mt-12 transition-all duration-500 ease-out ${
             showMore
-              ? 'max-h-[1400px] opacity-100 translate-y-0'
-              : 'max-h-0 opacity-0 -translate-y-2 pointer-events-none'
+              ? 'max-h-[2000px] md:max-h-[1400px] opacity-100 translate-y-0 overflow-visible'
+              : 'max-h-0 opacity-0 -translate-y-2 pointer-events-none overflow-hidden'
           }`}
         >
           <div className="text-center max-w-3xl mx-auto mb-10">
