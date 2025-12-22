@@ -43,7 +43,7 @@ const LoveButton: React.FC<{
       type="button"
       aria-pressed={loved}
       onClick={toggle}
-      className="inline-flex items-center gap-2 text-xs font-bold"
+      className="inline-flex items-center gap-2 text-xs font-bold focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2 rounded"
     >
       <Heart
         size={16}
@@ -93,20 +93,20 @@ const Case: React.FC<{
   >
     {/* image with whisp example */}
     <div className="flex-1 w-full">
-      <div className={`h-80 w-full rounded-[2rem] flex items-center justify-center relative overflow-hidden group shadow-2xl`}>
+      <div className={`h-80 w-full rounded-[2rem] flex items-center justify-center relative overflow-hidden group shadow-xl`}>
         {/* Background Image with Zoom Effect */}
         <div className="absolute inset-0">
              <img 
                 src={bgImage} 
                 alt={title} 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.04] motion-reduce:transition-none motion-reduce:transform-none" 
              />
              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition-colors duration-500"></div>
         </div>
 
         <div className="absolute inset-0 flex items-center justify-center p-6">
             {/* Simple Abstract Representation of Chat */}
-            <div className="bg-white/95 backdrop-blur-sm p-6 rounded-2xl shadow-xl max-w-sm w-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+            <div className="bg-white/95 backdrop-blur-sm p-6 rounded-2xl shadow-lg max-w-sm w-full transform translate-y-2 group-hover:translate-y-0 transition-transform duration-500 motion-reduce:transition-none motion-reduce:transform-none">
                 <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-gray-50 rounded-full shadow-sm">{icon}</div>
                     <div>
@@ -114,7 +114,7 @@ const Case: React.FC<{
                           <span className="font-bold text-gray-800 text-sm block">{title} Channel</span>
                         </div>
                         <span className="text-xs text-green-500 font-medium flex items-center gap-1">
-                          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> {activeCount} active
+                          <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse motion-reduce:animate-none"></span> {activeCount} active
                         </span>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ const Case: React.FC<{
       <p className="text-gray-500 leading-relaxed text-lg">
         {description}
       </p>
-      <button className="mt-8 text-whisp-dark font-bold hover:text-teal-600 transition-colors flex items-center justify-center md:justify-start gap-2 group">
+      <button className="mt-8 text-whisp-dark font-semibold hover:text-teal-600 transition-colors flex items-center justify-center md:justify-start gap-2 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2 rounded">
         Explore {title} <span className="transform group-hover:translate-x-1 transition-transform">→</span>
       </button>
     </div>
@@ -442,8 +442,8 @@ const UseCases: React.FC = () => {
     <section id="use-cases" className="py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="text-center mb-24">
-            <h2 className="text-whisp-dark font-bold tracking-widest uppercase text-sm mb-3">Live Channels</h2>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Where to Whisp?</h2>
+            <p className="text-whisp-dark font-bold tracking-widest uppercase text-sm mb-3">Live Channels</p>
+            <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">Where to Whisp?</h2>
             <p className="text-xl text-gray-500 max-w-2xl mx-auto">Your world is full of micro-communities waiting to happen. Jump in.</p>
         </div>
 
@@ -518,7 +518,7 @@ const UseCases: React.FC = () => {
             type="button"
             onClick={() => setShowMorePlaces((v) => !v)}
             aria-expanded={showMorePlaces}
-            className="px-8 py-4 bg-white border border-gray-200 hover:border-whisp-dark text-gray-700 hover:text-whisp-dark text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-all"
+            className="px-8 py-4 bg-white border border-gray-200 hover:border-whisp-dark text-gray-700 hover:text-whisp-dark text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
           >
             {showMorePlaces ? 'Show fewer places' : 'Expand for more details'}
           </button>

@@ -21,11 +21,11 @@ const FeatureCard: React.FC<{
   description: string;
   color: string;
 }> = ({ icon, title, description, color }) => (
-  <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 group hover:-translate-y-1">
+  <div className="bg-white p-8 rounded-3xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 group">
     <div
-      className={`w-14 h-14 rounded-2xl ${color} flex items-center justify-center mb-6 transition-transform duration-300 ease-out group-hover:scale-110 group-hover:rotate-2`}
+      className={`w-14 h-14 rounded-2xl ${color} flex items-center justify-center mb-6 transition-transform duration-300 ease-out group-hover:scale-[1.04] motion-reduce:transition-none`}
     >
-      <span className="transition-transform duration-300 ease-out group-hover:scale-110 group-hover:-rotate-6">
+      <span className="transition-transform duration-300 ease-out group-hover:scale-[1.04] motion-reduce:transition-none">
         {icon}
       </span>
     </div>
@@ -163,7 +163,7 @@ const Features: React.FC = () => {
             type="button"
             onClick={() => setShowMore((v) => !v)}
             aria-expanded={showMore}
-            className="px-8 py-4 bg-white border border-gray-200 hover:border-whisp-dark text-gray-700 hover:text-whisp-dark text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-all"
+            className="px-8 py-4 bg-white border border-gray-200 hover:border-whisp-dark text-gray-700 hover:text-whisp-dark text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
           >
             {showMore ? 'Show fewer details' : 'Expand for more details'}
           </button>

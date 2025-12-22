@@ -15,7 +15,9 @@ const Navbar: React.FC = () => {
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-white py-5'
+        isScrolled
+          ? 'bg-white/85 backdrop-blur-md border-b border-gray-100 py-3'
+          : 'bg-white/70 backdrop-blur-md py-5'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
@@ -54,7 +56,7 @@ const Navbar: React.FC = () => {
           </button>
           <a 
             href="https://web.whispapp.co" 
-            className="px-6 py-2.5 bg-whisp-dark hover:bg-teal-600 text-white font-semibold rounded-full transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            className="px-6 py-2.5 bg-whisp-dark hover:bg-teal-600 text-white font-semibold rounded-full transition-colors shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
           >
             Launch Web App
           </a>
@@ -62,7 +64,7 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Toggle */}
         <button 
-          className="md:hidden text-gray-600"
+          className="md:hidden text-gray-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2 rounded"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -71,7 +73,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-xl p-6 flex flex-col gap-4 animate-fade-in-down">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-lg p-6 flex flex-col gap-4">
           <a href="#features" className="text-lg font-medium text-gray-700" onClick={() => setMobileMenuOpen(false)}>Features</a>
           <a href="#use-cases" className="text-lg font-medium text-gray-700" onClick={() => setMobileMenuOpen(false)}>Local Vibes</a>
           <button
@@ -84,7 +86,7 @@ const Navbar: React.FC = () => {
           </button>
           <a 
             href="https://web.whispapp.co" 
-            className="text-center px-6 py-3 bg-whisp-dark text-white font-semibold rounded-full mt-2"
+            className="text-center px-6 py-3 bg-whisp-dark hover:bg-teal-600 text-white font-semibold rounded-full mt-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
           >
             Launch Web App
           </a>

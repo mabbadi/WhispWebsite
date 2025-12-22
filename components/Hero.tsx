@@ -15,13 +15,13 @@ const Hero: React.FC = () => {
           <div className="lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-whisp-light/30 text-whisp-dark text-sm font-semibold mb-6 shadow-sm">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-whisp opacity-75"></span>
+                <span className="animate-ping motion-reduce:animate-none absolute inline-flex h-full w-full rounded-full bg-whisp opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-whisp"></span>
               </span>
               v1.0 Coming Soon
             </div>
             
-            <h1 className="text-5xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight leading-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 tracking-tight leading-[1.05]">
               Speak Freely. <br/>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-whisp-dark to-teal-600">Connect Locally.</span>
             </h1>
@@ -33,13 +33,13 @@ const Hero: React.FC = () => {
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a 
                 href="https://web.whispapp.co" 
-                className="px-8 py-4 bg-whisp-dark hover:bg-teal-600 text-white text-lg font-bold rounded-full shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2"
+                className="px-8 py-4 bg-whisp-dark hover:bg-teal-600 text-white text-lg font-bold rounded-full shadow-md hover:shadow-lg transition-colors flex items-center justify-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
               >
                 Start Whispering <ArrowRight size={20} />
               </a>
               <a 
                 href="#features" 
-                className="px-8 py-4 bg-white border border-gray-200 hover:border-whisp-dark text-gray-700 hover:text-whisp-dark text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-all flex items-center justify-center"
+                className="px-8 py-4 bg-white border border-gray-200 hover:border-whisp-dark text-gray-700 hover:text-whisp-dark text-lg font-semibold rounded-full shadow-sm hover:shadow-md transition-colors flex items-center justify-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
               >
                 Learn More
               </a>
@@ -66,11 +66,11 @@ const Hero: React.FC = () => {
             <div className="relative mx-auto w-full max-w-[600px] aspect-square flex items-center justify-center">
               
               {/* Main Lifestyle Image */}
-              <div className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl transform rotate-2">
+              <div className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-xl transform rotate-1">
                 <img 
                     src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2532&auto=format&fit=crop" 
                     alt="Friends laughing and looking at phone" 
-                    className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700 ease-out"
+                    className="w-full h-full object-cover opacity-90 hover:scale-[1.03] transition-transform duration-700 ease-out motion-reduce:transition-none motion-reduce:transform-none"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
               </div>

@@ -14,7 +14,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="font-sans text-gray-900 bg-white selection:bg-whisp-light selection:text-whisp-dark">
+    <div className="font-sans antialiased text-gray-900 bg-white selection:bg-whisp-light selection:text-whisp-dark">
       <Navbar />
       <main>
         <Hero />
