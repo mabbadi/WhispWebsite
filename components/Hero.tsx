@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 max-w-lg leading-relaxed font-medium">
-              Whisp is the secure, anonymous, and fun way to chat with the people around you. Your neighbors, your gym, your campus—connected.
+              Whisp is the secure, anonymous, and fun way to chat with the people around you. Your neighbors, your gym, your campus-connected.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">

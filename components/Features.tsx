@@ -94,42 +94,42 @@ const Features: React.FC = () => {
         color: 'bg-indigo-100',
         title: 'Daily Avatar Identity',
         description:
-          'Each day you’re assigned an avatar—so people can recognize your vibe across the conversation without knowing who you are.',
+          'Each day you’re assigned an avatar-so people can recognize your vibe across the conversation without knowing who you are.',
       },
       {
         icon: <History className="text-emerald-600" size={28} />,
         color: 'bg-emerald-100',
         title: 'Avatar History (Last 24h)',
         description:
-          'See the avatars you’ve crossed paths with in the past day around your favorite areas—great for safety, continuity, and community vibes.',
+          'See the avatars you’ve crossed paths with in the past day around your favorite areas-great for safety, continuity, and community vibes.',
       },
       {
         icon: <BadgeCheck className="text-sky-600" size={28} />,
         color: 'bg-sky-100',
         title: 'Verified Message Check',
         description:
-          'Smart identity checks can mark a message as verified—so you instantly know what to trust in the message center.',
+          'Smart identity checks can mark a message as verified-so you instantly know what to trust in the message center.',
       },
       {
         icon: <EyeOff className="text-slate-600" size={28} />,
         color: 'bg-slate-100',
         title: 'Preview Mode (Offline)',
         description:
-          'Try Whisp without committing to an account. Explore the experience first—then onboard in seconds when you’re ready.',
+          'Try Whisp without committing to an account. Explore the experience first-then onboard in seconds when you’re ready.',
       },
       {
         icon: <Award className="text-amber-600" size={28} />,
         color: 'bg-amber-100',
         title: 'Reputation → Badges',
         description:
-          'As people like your posts in an area, your local reputation grows—unlock badges that appear next to your avatar icon.',
+          'As people like your posts in an area, your local reputation grows-unlock badges that appear next to your avatar icon.',
       },
       {
         icon: <Siren className="text-rose-600" size={28} />,
         color: 'bg-rose-100',
         title: 'Smart AI Hate-Speech Detection',
         description:
-          'Smart AI helps detect hate speech and harmful language so interactions stay respectful and safe—without turning the app into a noisy feed.',
+          'Smart AI helps detect hate speech and harmful language so interactions stay respectful and safe-without turning the app into a noisy feed.',
       },
     ],
     []
@@ -179,7 +179,7 @@ const Features: React.FC = () => {
         >
           <div className="text-center max-w-3xl mx-auto mb-10">
             <h4 className="text-2xl font-bold text-gray-900 mb-3">More ways Whisp helps</h4>
-            <p className="text-lg text-gray-500">Trust signals, continuity, and lightweight gamification—without the noise.</p>
+            <p className="text-lg text-gray-500">Trust signals, continuity, and lightweight gamification-without the noise.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {detailedFeatures.map((feature) => (

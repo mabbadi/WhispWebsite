@@ -4,7 +4,7 @@
 
 # Whisp Website
 
-This repository contains the marketing/landing site for Whisp — a lightweight, location-based app for short local conversations and micro-communities. The site is built with React + TypeScript and Vite, and uses TailwindCSS-style utility classes.
+This repository contains the marketing/landing site for Whisp - a lightweight, location-based app for short local conversations and micro-communities. The site is built with React + TypeScript and Vite, and uses TailwindCSS-style utility classes.
 
 ## What this site shows
 - Short product overview and hero
@@ -48,9 +48,9 @@ npm run deploy
 ```
 
 ## Notable files
-- `App.tsx` — main page composition (Hero, Features, Gallery, UseCases, WaitingList, Footer)
-- `components/` — React UI sections used on the landing page
-- `vite.config.ts`, `package.json` — build and deploy scripts
+- `App.tsx` - main page composition (Hero, Features, Gallery, UseCases, WaitingList, Footer)
+- `components/` - React UI sections used on the landing page
+- `vite.config.ts`, `package.json` - build and deploy scripts
 
 ## About Whisp (short)
 Whisp is designed for quick, in-the-moment local conversations without profiles or persistent identities. Key ideas highlighted on the site:

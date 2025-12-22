@@ -451,7 +451,7 @@ const UseCases: React.FC = () => {
             title="The Gym"
             subtitle="Find your spotter or check crowd levels."
             example="Can someone show me how to use the squat rack? I'm too shy to ask in person! 🏋️‍♀️"
-          description="At the gym, you can ask quick questions, check how busy it is, and find a spotter—without interrupting anyone or swapping numbers. Open the channel for this location and jump in."
+          description="At the gym, you can ask quick questions, check how busy it is, and find a spotter-without interrupting anyone or swapping numbers. Open the channel for this location and jump in."
             messageAvatar="🤖"
             verified
             reputationBadge={{ emoji: '🏆', label: 'Gold' }}
@@ -468,7 +468,7 @@ const UseCases: React.FC = () => {
             title="The Neighborhood"
             subtitle="Borrow sugar or discuss the new fence."
             example="Did anyone else just hear that weird noise outside? 🏡"
-          description="In your neighborhood, use Whisp for quick local updates—lost packages, odd noises, a heads-up about roadworks—without turning it into a public social feed."
+          description="In your neighborhood, use Whisp for quick local updates-lost packages, odd noises, a heads-up about roadworks-without turning it into a public social feed."
             messageAvatar="🦄"
             reputationBadge={{ emoji: '🥈', label: 'Silver' }}
             activeCount={12}
@@ -484,7 +484,7 @@ const UseCases: React.FC = () => {
             title="University Campus"
             subtitle="Study groups and campus events."
             example="Library is fully packed, try the north hall study room! 📚"
-          description="On campus, find study partners, share live tips (quiet rooms, queue times), and coordinate events—fast and lightweight, without joining yet another formal group chat."
+          description="On campus, find study partners, share live tips (quiet rooms, queue times), and coordinate events-fast and lightweight, without joining yet another formal group chat."
             messageAvatar="🦉"
             verified
             reputationBadge={{ emoji: '🏅', label: 'Trusted' }}
@@ -501,7 +501,7 @@ const UseCases: React.FC = () => {
             title="Local Coffee Shop"
             subtitle="Remote workers unite."
             example="Does anyone have a Macbook charger I can borrow for 10 mins? ☕"
-          description="In a coffee shop, ask for a charger, claim a spare seat, or check whether the Wi‑Fi is down—without awkwardly broadcasting to the whole room."
+          description="In a coffee shop, ask for a charger, claim a spare seat, or check whether the Wi‑Fi is down-without awkwardly broadcasting to the whole room."
             messageAvatar="🐱"
             reputationBadge={{ emoji: '🌿', label: 'Kind' }}
             activeCount={9}
@@ -535,12 +535,12 @@ const UseCases: React.FC = () => {
 
           <ImageOnlyCarousel
             title="More places to Whisp"
-            subtitle="Swipe through real-world channels — fast, lightweight, and designed for in-the-moment conversations."
+            subtitle="Swipe through real-world channels - fast, lightweight, and designed for in-the-moment conversations."
             items={[
               {
                 title: 'Concerts & Festivals',
                 example:
-                  'Heads up: entrance B is moving fast. Anyone know if water is allowed? Also—verified update only please ✅ 🎶',
+                  'Heads up: entrance B is moving fast. Anyone know if water is allowed? Also-verified update only please ✅ 🎶',
                 messageAvatar: '🦊',
                 verified: true,
                 reputationBadge: { emoji: '🏅', label: 'Trusted' },
@@ -569,7 +569,7 @@ const UseCases: React.FC = () => {
               {
                 title: 'Airports & Travel',
                 example:
-                  'Gate changed to A14—just got a verified notification ✅ Anyone else on this flight want to split a taxi at arrival? ✈️',
+                  'Gate changed to A14-just got a verified notification ✅ Anyone else on this flight want to split a taxi at arrival? ✈️',
                 messageAvatar: '🦅',
                 verified: true,
                 reputationBadge: { emoji: '🏆', label: 'Gold' },
@@ -584,7 +584,7 @@ const UseCases: React.FC = () => {
               {
                 title: 'Workplaces & Conferences',
                 example:
-                  'Anyone know which room the talk moved to? I’m in preview mode and onboarding later—this app is fast 😅',
+                  'Anyone know which room the talk moved to? I’m in preview mode and onboarding later-this app is fast 😅',
                 messageAvatar: '🤖',
                 reputationBadge: { emoji: '🪵', label: 'Starter' },
                 activeCount: 23,
@@ -626,7 +626,7 @@ const UseCases: React.FC = () => {
               {
                 title: 'Parks & Outdoors',
                 example:
-                  'Any pickup soccer happening near the main field? Also—where’s the nearest water fountain? 🌳',
+                  'Any pickup soccer happening near the main field? Also-where’s the nearest water fountain? 🌳',
                 messageAvatar: '🦊',
                 reputationBadge: { emoji: '🌿', label: 'Kind' },
                 activeCount: 17,
