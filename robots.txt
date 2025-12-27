@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://whispapp.co/sitemap.xml
+Sitemap: https://whispme.co/sitemap.xml

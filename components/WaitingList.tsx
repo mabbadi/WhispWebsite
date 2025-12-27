@@ -15,7 +15,7 @@ const WaitingList: React.FC = () => {
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a 
-                href="https://web.whispapp.co" 
+                href="https://web.whispme.co" 
                 className="w-full sm:w-auto px-8 py-4 bg-white text-whisp-dark font-bold text-lg rounded-full shadow-md hover:shadow-lg hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
             >
                 Launch Web App

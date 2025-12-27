@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a 
-                href="https://web.whispapp.co" 
+                href="https://web.whispme.co" 
                 className="px-8 py-4 bg-whisp-dark hover:bg-teal-600 text-white text-lg font-bold rounded-full shadow-md hover:shadow-lg transition-colors flex items-center justify-center gap-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
               >
                 Start Whispering <ArrowRight size={20} />

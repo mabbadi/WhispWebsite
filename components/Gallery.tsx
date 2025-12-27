@@ -16,7 +16,7 @@ const Gallery: React.FC = () => {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Join the Community</h2>
                 <p className="text-gray-500 text-lg">Real people, real connections. Just around the corner.</p>
             </div>
-        <a href="https://web.whispapp.co" className="text-whisp-dark font-semibold hover:text-teal-600 transition-colors flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2 rounded">
+        <a href="https://web.whispme.co" className="text-whisp-dark font-semibold hover:text-teal-600 transition-colors flex items-center gap-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2 rounded">
                 See what's happening near you &rarr;
             </a>
         </div>

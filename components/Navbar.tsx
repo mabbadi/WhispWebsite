@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
             <span className="sr-only">Coming soon</span>
           </button>
           <a 
-            href="https://web.whispapp.co" 
+            href="https://web.whispme.co" 
             className="px-6 py-2.5 bg-whisp-dark hover:bg-teal-600 text-white font-semibold rounded-full transition-colors shadow-sm hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
           >
             Launch Web App
@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
             <span className="inline-block text-xs bg-yellow-400 text-black px-1 rounded">WIP</span>
           </button>
           <a 
-            href="https://web.whispapp.co" 
+            href="https://web.whispme.co" 
             className="text-center px-6 py-3 bg-whisp-dark hover:bg-teal-600 text-white font-semibold rounded-full mt-2 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2"
           >
             Launch Web App

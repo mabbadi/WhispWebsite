@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6 text-whisp">Product</h4>
             <ul className="space-y-4">
-              <li><a href="https://web.whispapp.co" className="text-gray-400 hover:text-white transition-colors">Web App</a></li>
+              <li><a href="https://web.whispme.co" className="text-gray-400 hover:text-white transition-colors">Web App</a></li>
               <li><span className="text-gray-500">iOS (Coming soon)</span></li>
               <li><span className="text-gray-500">Android (Coming soon)</span></li>
               <li>
