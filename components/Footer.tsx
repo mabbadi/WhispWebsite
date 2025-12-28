@@ -24,15 +24,8 @@ const Footer: React.FC = () => {
               <li><span className="text-gray-500">iOS (Coming soon)</span></li>
               <li><span className="text-gray-500">Android (Coming soon)</span></li>
               <li>
-                <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  aria-disabled="true"
-                  title="Work in progress"
-                  className="text-gray-500 cursor-not-allowed transition-colors"
-                >
+                <a href="safety.html" className="text-gray-400 hover:text-white transition-colors">
                   Safety Guidelines
-                  <span className="ml-2 inline-block text-xs bg-yellow-400 text-black px-1 rounded">WIP</span>
                 </a>
               </li>            </ul>
           </div>
@@ -65,15 +58,8 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  aria-disabled="true"
-                  title="Work in progress"
-                  className="text-gray-500 cursor-not-allowed transition-colors"
-                >
+                <a href="privacy.html" className="text-gray-400 hover:text-white transition-colors">
                   Privacy Policy
-                  <span className="ml-2 inline-block text-xs bg-yellow-400 text-black px-1 rounded">WIP</span>
                 </a>
               </li>
               <li>
