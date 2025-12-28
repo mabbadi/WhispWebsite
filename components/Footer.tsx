@@ -77,15 +77,8 @@ const Footer: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  aria-disabled="true"
-                  title="Work in progress"
-                  className="text-gray-500 cursor-not-allowed transition-colors"
-                >
+                <a href="terms.html" className="text-gray-400 hover:text-white transition-colors">
                   Terms of Service
-                  <span className="ml-2 inline-block text-xs bg-yellow-400 text-black px-1 rounded">WIP</span>
                 </a>
               </li>            </ul>
           </div>

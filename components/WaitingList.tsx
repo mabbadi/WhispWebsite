@@ -26,7 +26,14 @@ const WaitingList: React.FC = () => {
         </div>
         
         <p className="mt-8 text-sm text-teal-200 opacity-80">
-            * By joining, you agree to our Terms of Service. No spam, ever.
+            * By joining, you agree to our{' '}
+            <a
+              href="terms.html"
+              className="underline underline-offset-4 hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-whisp-light focus-visible:ring-offset-2 rounded"
+            >
+              Terms of Service
+            </a>
+            . No spam, ever.
         </p>
       </div>
     </section>
